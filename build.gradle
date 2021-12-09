@@ -5,7 +5,6 @@ plugins {
 
 launch4j {
   mainClassName = 'com.example.myapp.Start'
-  icon = "${projectDir}/icons/myApp.ico"
 }
 
 repositories {
