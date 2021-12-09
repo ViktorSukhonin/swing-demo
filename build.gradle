@@ -3,24 +3,14 @@ plugins {
   id 'edu.sc.seis.launch4j' version '2.5.1'
 }
 
-repositories {
-  jcenter()
-}
-
 launch4j {
   mainClassName = 'com.example.myapp.Start'
   icon = "${projectDir}/icons/myApp.ico"
 }
 
-buildscript {
-  repositories {
-    jcenter()
-  }
-  dependencies {
-    classpath 'edu.sc.seis.launch4j:launch4j:2.5.1'
-  }
+repositories {
+  jcenter()
 }
-
 
 dependencies {
     compile 'org.slf4j:slf4j-api:1.7.7'
